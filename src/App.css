@@ -1,17 +1,114 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
 }
 
 .video-block {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 p {
-  max-width: 300px;
-  margin: 40px;
+	max-width: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.mini-block {
+	width: 250px;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 7px;
+}
+
+.button {
+	cursor: pointer;
+	font-size: 30px;
+	color: #b5b5b5;
+}
+
+.button:hover {
+	color: black;
+}
+
+.button-full {
+	cursor: pointer;
+	font-size: 25px;
+	color: #b5b5b5;
+}
+
+.button-full:hover {
+	color: black;
+}
+
+.none {
+	display: none;
+}
+
+.full-block {
+	position: fixed;
+	z-index: 20;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #878787;
+}
+
+.box {
+	text-align: center;
+	max-width: 900px;
+	max-height: 615px;
+	margin: 40px auto;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.box-mini {
+	text-align: center;
+	max-width: 600px;
+	max-height: 440px;
+	margin: 40px auto;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.button-block {
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 20px 0 20px;
+}
+
+h3 {
+	margin: 0;
+}
+
+video {
+	max-width: 100%;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.control-panel {
+	display: flex;
+	justify-content: flex-end;
+	margin: 12px 20px 0 0;
 }
